@@ -1,0 +1,73 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+select {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+h1 {
+  color: #555;
+}
+#usertable{
+  margin: auto;
+border: 2px solid blue;
+text-align: center;
+width: 60%;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 70vh;
+}
+.searchbar{
+  width: 30vw;
+  height: 10vh;
+}
+.filters{
+  width: 30vw;
+  height: 10vh;
+}
+.SortOptions{
+  width: 30vw;
+  height: 10vh;
+}
+.Header{
+  margin: auto;
+  width: 100vw;
+  height: 10vh;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.Footer{
+  margin: auto;
+  width: 100vw;
+  height: 10vh;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.userlist{
+  width: 80vw;
+  height: 30vh;
+}
