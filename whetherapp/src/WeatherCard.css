@@ -1,0 +1,60 @@
+/* WeatherCard.css */
+
+/* Styling the card container */
+.weather-card {
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for card */
+  .weather-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling the header section */
+  .weather-card-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .city-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .weather-description {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Styling the body section */
+  .weather-card-body {
+    font-size: 1.1em;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Styling each weather item */
+  .weather-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .weather-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
